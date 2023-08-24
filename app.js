@@ -11,8 +11,8 @@ async function exchange  (){
 
     let firstCurrency;
     let secondCurrency;
-    let firstCode;
-    let secondCode;
+    let firstCode = 'PLN';
+    let secondCode = 'PLN';
     if(inputValue === "")
     {
         alert('Proszę podać kwotę!');
