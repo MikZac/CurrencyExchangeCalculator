@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+            <div class="exchange">
+                <div class="exchange__container"><label class="exchange__label">Kwota:</label><br>
+                    <input type="number" class="exchange__value" placeholder="Wpisz kwotę"></div>
+                <div class="exchange__container">
+                    <label class="exchange__label">Mam:</label><br>
+                <select class="exchange__list before">
+                    <option value="PLN" class="exchange__option" >PLN</option>
+                    <option value="EUR" class="exchange__option" >EURO</option>
+                    <option value="GBP" class="exchange__option" >GBP</option>
+                    <option value="USD" class="exchange__option" >USD</option>
+                    <option value="CHF" class="exchange__option" >CHF</option>
+                </select>
+                </div>
+                <div class="exchange__container" >
+                    <label class="exchange-label">Wymieniam na:</label><br>
+                <select class="exchange__list after">
+                    <option value="PLN" class="exchange__option">PLN</option>
+                    <option value="EUR" class="exchange__option" >EURO</option>
+                    <option value="GBP" class="exchange__option" >GBP</option>
+                    <option value="USD" class="exchange__option" >USD</option>
+                    <option value="CHF" class="exchange__option" >CHF</option>
+                </select>
+                </div>
+                <div class="exchange__container"><br>
+                    <button class="exchange__btn btn" type="submit">Przelicz</button>
+                </div>
+                
+            </div>
+
+        
+        <div class="amount">
+           <p> <span class="amount-before"></span> <span class="first__code"></span> <span class="equal"></span> <span class="amount-after"></span> <span class="second__code"></span></p>
+            <p><span class="first__value"></span> <span class="first__code"></span> <span class="equal"></span>  <span class="value__currency"></span> <span class="second__code"></span> <span class="info"></span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
